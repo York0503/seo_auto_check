@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./venv/bin/pip install psutil)",
+      "Bash(./venv/bin/pip install:*)",
+      "Bash(python3 -m pip install:*)",
+      "Bash(python3:*)",
+      "Bash(./venv/bin/pip list)",
+      "Bash(rm:*)",
+      "Bash(./venv/bin/python -c \"import openpyxl, selenium; print(''✓ 套件安裝成功'')\")",
+      "Bash(./venv/bin/python -c \"\nfrom openpyxl import load_workbook\nwb = load_workbook(''seo_search_keyword.xlsx'')\nws = wb.active\nprint(''工作表名稱:'', ws.title)\nprint(''前5列內容:'')\nfor i, row in enumerate(ws.iter_rows(min_row=1, max_row=5, values_only=True), 1):\n    print(f''第{i}列:'', row)\n\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

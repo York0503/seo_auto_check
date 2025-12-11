@@ -8,6 +8,7 @@ import subprocess
 from datetime import datetime
 from openpyxl import Workbook, load_workbook
 import os
+from urllib.parse import urlparse
 
 from selenium.webdriver.chrome.service import Service
 
@@ -44,7 +45,7 @@ def save_to_excel(results, keyword):
     """將搜尋結果儲存到 Excel 檔案"""
     # 取得當前日期和月份
     now = datetime.now()
-    date_str = now.strftime("%Y-%m-%d")
+    date_str = now.strftime("%Y-%m-%d %H:%M:%S")
     month_str = now.strftime("%Y-%m")
 
     # Excel 檔案路徑
@@ -67,18 +68,26 @@ def save_to_excel(results, keyword):
         # 建立新的月份分頁
         ws = wb.create_sheet(month_str)
         # 加入標題列
-        ws.append(["日期", "關鍵字", "排名", "標題"])
+        ws.append(["日期", "關鍵字", "網址", "目標網站", "排名", "標題"])
 
     # 寫入搜尋結果
-    for rank, title in enumerate(results, 1):
-        ws.append([date_str, keyword, rank, title])
+    for rank, (title, url) in enumerate(results, 1):
+        # 檢查網址是否為目標網域
+        try:
+            parsed_url = urlparse(url)
+            # www.scincotaiwan.tw 或其子網域
+            is_target_domain = 1 if parsed_url.netloc == 'www.scincotaiwan.tw' or parsed_url.netloc == 'scincotaiwan.tw' or parsed_url.netloc.endswith('.scincotaiwan.tw') else 0
+        except Exception:
+            is_target_domain = 0 # 如果 URL 格式有問題
+
+        ws.append([date_str, keyword, url, is_target_domain, rank, title])
 
     # 儲存檔案
     wb.save(excel_file)
     print(f"\n✓ 搜尋結果已儲存至 {excel_file}，分頁：{month_str}")
 
 def search_keyword(driver, keyword):
-    """搜尋單一關鍵字並回傳結果"""
+    """搜尋單一關鍵字並回傳結果，會自動翻頁直到收集到 10 筆資料"""
     try:
         # 開啟 Google
         driver.get("https://www.google.com")
@@ -102,19 +111,71 @@ def search_keyword(driver, keyword):
         # 等待查看結果
         time.sleep(5)
 
-        # 取得前十個搜尋結果的標題
-        search_results = driver.find_elements(By.CSS_SELECTOR, "h3")
         print(f"\n關鍵字「{keyword}」的搜尋結果：")
         print("=" * 50)
 
         # 收集搜尋結果
         results = []
-        for result in search_results:
-            if result.text.strip():  # 略過空白標題
-                results.append(result.text)
-                print(f"{len(results)}. {result.text}")
-                if len(results) == 10:
+        page_count = 1
+        # 最多翻 3 頁，或直到收集到 10 筆結果
+        while len(results) < 10 and page_count <= 3:
+            # 在迴圈開始時檢查是否需要翻頁
+            if page_count > 1:
+                print(f"\n... 前往第 {page_count} 頁 ...")
+                time.sleep(3) # 等待新頁面載入
+
+            # 取得當前頁面的搜尋結果
+            # 我們尋找包含 h3 標籤的 <a> 標籤
+            search_links = driver.find_elements(By.XPATH, "//a[h3]")
+
+            for link_element in search_links:
+                try:
+                    title = link_element.find_element(By.TAG_NAME, 'h3').text
+                    url = link_element.get_attribute('href')
+
+                    # 略過空白標題和無效網址，並檢查是否重複
+                    if title.strip() and url and not any(r[1] == url for r in results):
+                        results.append((title, url))
+                        print(f"{len(results)}. {title}")
+                        if len(results) == 10:
+                            break
+                except Exception:
+                    # 忽略無法解析的元素
+                    continue
+            
+            # 如果還沒滿 10 筆，且還沒達到頁數上限，就嘗試翻頁
+            if len(results) < 10 and page_count < 3:
+                try:
+                    # 嘗試多種方式尋找 "下一頁" 按鈕
+                    next_button = None
+                    try:
+                        # 英文版 Google
+                        next_button = driver.find_element(By.CSS_SELECTOR, 'a[aria-label="Next page"]')
+                    except Exception:
+                        try:
+                            # 中文版 Google
+                            next_button = driver.find_element(By.CSS_SELECTOR, 'a[aria-label="下一頁"]')
+                        except Exception:
+                             try:
+                                # 舊版 ID
+                                next_button = driver.find_element(By.ID, "pnnext")
+                             except Exception:
+                                print("\n... 找不到 '下一頁' 按鈕，可能已達搜尋結果末頁 ...")
+                                break
+                    
+                    if next_button:
+                        # 使用 JavaScript 點擊以避免元素被遮擋
+                        driver.execute_script("arguments[0].click();", next_button)
+                        page_count += 1
+                    else:
+                        break
+
+                except Exception as e:
+                    print(f"\n翻頁時發生錯誤: {e}")
                     break
+            else:
+                # 已集滿 10 筆或已達頁數上限
+                break
 
         # 儲存結果到 Excel
         save_to_excel(results, keyword)

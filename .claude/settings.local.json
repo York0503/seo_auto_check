@@ -8,7 +8,11 @@
       "Bash(./venv/bin/pip list)",
       "Bash(rm:*)",
       "Bash(./venv/bin/python -c \"import openpyxl, selenium; print(''✓ 套件安裝成功'')\")",
-      "Bash(./venv/bin/python -c \"\nfrom openpyxl import load_workbook\nwb = load_workbook(''seo_search_keyword.xlsx'')\nws = wb.active\nprint(''工作表名稱:'', ws.title)\nprint(''前5列內容:'')\nfor i, row in enumerate(ws.iter_rows(min_row=1, max_row=5, values_only=True), 1):\n    print(f''第{i}列:'', row)\n\")"
+      "Bash(./venv/bin/python -c \"\nfrom openpyxl import load_workbook\nwb = load_workbook(''seo_search_keyword.xlsx'')\nws = wb.active\nprint(''工作表名稱:'', ws.title)\nprint(''前5列內容:'')\nfor i, row in enumerate(ws.iter_rows(min_row=1, max_row=5, values_only=True), 1):\n    print(f''第{i}列:'', row)\n\")",
+      "Bash(unzip:*)",
+      "Bash(pip3 install:*)",
+      "Bash(./venv/bin/python3:*)",
+      "Bash(/Users/york/Desktop/APP/seo_auto_check/venv/bin/python3:*)"
     ],
     "deny": [],
     "ask": []

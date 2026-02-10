@@ -1,0 +1,229 @@
+[2026-02-10 17:13:19] INFO - ============================================================
+[2026-02-10 17:13:19] INFO -   SEO 自動排名追蹤工具
+[2026-02-10 17:13:19] INFO -   目標網域排名監測 — Pivot 矩陣輸出
+[2026-02-10 17:13:19] INFO - ============================================================
+[2026-02-10 17:13:19] INFO - 成功載入 17 個關鍵字
+[2026-02-10 17:13:19] INFO - 從 data/input/converted/final/converted_2026.json 載入 120 個假日
+[2026-02-10 17:13:19] INFO - 目標網域: https://www.scincotaiwan.tw/
+[2026-02-10 17:13:19] INFO - 搜尋深度: 3 頁
+[2026-02-10 17:13:19] INFO - 超出閾值: 15
+[2026-02-10 17:13:19] INFO - 關鍵字數: 17
+[2026-02-10 17:13:19] INFO - 正在啟動 Chrome 瀏覽器...
+[2026-02-10 17:13:22] INFO - [1/17] 搜尋關鍵字：紅外光譜儀
+[2026-02-10 17:13:29] INFO -   比對目標域名: scincotaiwan.tw (原始: https://www.scincotaiwan.tw/)
+[2026-02-10 17:13:29] INFO -   第 1 頁：找到 14 個結果標題連結
+[2026-02-10 17:13:29] INFO -     #1 blog.kohan.com.tw → ✗
+[2026-02-10 17:13:29] INFO -     #2 www.rightek.com.tw → ✗
+[2026-02-10 17:13:29] INFO -     #3 wavelength-oe.com → ✗
+[2026-02-10 17:13:29] INFO -     #4 zh.wikipedia.org → ✗
+[2026-02-10 17:13:29] INFO -     #5 www.youtube.com → ✗
+[2026-02-10 17:13:29] INFO -     #6 shopee.tw → ✗
+[2026-02-10 17:13:29] INFO -     #7 www.sun-way.com.tw → ✗
+[2026-02-10 17:13:29] INFO -     #8 ceshh.mcut.edu.tw → ✗
+[2026-02-10 17:13:30] INFO -     #9 nscric.site.nthu.edu.tw → ✗
+[2026-02-10 17:13:30] INFO -     #10 www.nsrrc.org.tw → ✗
+[2026-02-10 17:13:30] INFO -     #11 fs.ntou.edu.tw → ✗
+[2026-02-10 17:13:30] INFO -     #12 www.eurofins.tw → ✗
+[2026-02-10 17:13:30] INFO -     #13 www.mt.com → ✗
+[2026-02-10 17:13:30] INFO -     #14 www.scincotaiwan.tw → ✓ 匹配
+[2026-02-10 17:13:30] INFO -   找到！排名第 14 名，第 1 頁
+[2026-02-10 17:13:30] INFO -   結果: 14/P.1
+[2026-02-10 17:13:30] INFO -   等待 5 秒...
+[2026-02-10 17:13:35] INFO - [2/17] 搜尋關鍵字：分光光度計
+[2026-02-10 17:13:42] INFO -   比對目標域名: scincotaiwan.tw (原始: https://www.scincotaiwan.tw/)
+[2026-02-10 17:13:42] INFO -   第 1 頁：找到 12 個結果標題連結
+[2026-02-10 17:13:42] INFO -     #1 zh.wikipedia.org → ✗
+[2026-02-10 17:13:42] INFO -     #2 www.scincotaiwan.tw → ✓ 匹配
+[2026-02-10 17:13:42] INFO -   找到！排名第 2 名，第 1 頁
+[2026-02-10 17:13:42] INFO -   結果: 2/P.1
+[2026-02-10 17:13:42] INFO -   等待 5 秒...
+[2026-02-10 17:13:47] INFO - [3/17] 搜尋關鍵字：精密烘箱
+[2026-02-10 17:13:55] INFO -   比對目標域名: scincotaiwan.tw (原始: https://www.scincotaiwan.tw/)
+[2026-02-10 17:13:55] INFO -   第 1 頁：找到 9 個結果標題連結
+[2026-02-10 17:13:55] INFO -     #1 www.finetech-filter.com → ✗
+[2026-02-10 17:13:55] INFO -     #2 www.twhipoint.com → ✗
+[2026-02-10 17:13:55] INFO -     #3 www.scincotaiwan.tw → ✓ 匹配
+[2026-02-10 17:13:55] INFO -   找到！排名第 3 名，第 1 頁
+[2026-02-10 17:13:55] INFO -   結果: 3/P.1
+[2026-02-10 17:13:55] INFO -   等待 5 秒...
+[2026-02-10 17:14:00] INFO - [4/17] 搜尋關鍵字：ftir
+[2026-02-10 17:14:07] INFO -   比對目標域名: scincotaiwan.tw (原始: https://www.scincotaiwan.tw/)
+[2026-02-10 17:14:07] INFO -   第 1 頁：找到 12 個結果標題連結
+[2026-02-10 17:14:07] INFO -     #1 zh.wikipedia.org → ✗
+[2026-02-10 17:14:07] INFO -     #2 www.thermofisher.com → ✗
+[2026-02-10 17:14:07] INFO -     #3 www.rightek.com.tw → ✗
+[2026-02-10 17:14:07] INFO -     #4 zh.wikipedia.org → ✗
+[2026-02-10 17:14:07] INFO -     #5 blog.kohan.com.tw → ✗
+[2026-02-10 17:14:07] INFO -     #6 www.rightek.com.tw → ✗
+[2026-02-10 17:14:07] INFO -     #7 www.istgroup.com → ✗
+[2026-02-10 17:14:07] INFO -     #8 che.yuntech.edu.tw → ✗
+[2026-02-10 17:14:07] INFO -     #9 nscric.site.nthu.edu.tw → ✗
+[2026-02-10 17:14:07] INFO -     #10 blog.kohan.com.tw → ✗
+[2026-02-10 17:14:07] INFO -     #11 www.thermofisher.com → ✗
+[2026-02-10 17:14:07] INFO -     #12 www.scincotaiwan.tw → ✓ 匹配
+[2026-02-10 17:14:07] INFO -   找到！排名第 12 名，第 1 頁
+[2026-02-10 17:14:07] INFO -   結果: 12/P.1
+[2026-02-10 17:14:07] INFO -   等待 5 秒...
+[2026-02-10 17:14:12] INFO - [5/17] 搜尋關鍵字：近紅外光譜儀
+[2026-02-10 17:14:20] INFO -   比對目標域名: scincotaiwan.tw (原始: https://www.scincotaiwan.tw/)
+[2026-02-10 17:14:20] INFO -   第 1 頁：找到 14 個結果標題連結
+[2026-02-10 17:14:20] INFO -     #1 www.metrohm.com → ✗
+[2026-02-10 17:14:20] INFO -     #2 sp1.hso.mohw.gov.tw → ✗
+[2026-02-10 17:14:20] INFO -     #3 fs.ntou.edu.tw → ✗
+[2026-02-10 17:14:20] INFO -     #4 www.light-uf.com → ✗
+[2026-02-10 17:14:20] INFO -     #5 www.nsrrc.org.tw → ✗
+[2026-02-10 17:14:20] INFO -     #6 www.otophotonics.com → ✗
+[2026-02-10 17:14:20] INFO -     #7 www.rightek.com.tw → ✗
+[2026-02-10 17:14:20] INFO -     #8 www.oceanhoodtw.com → ✗
+[2026-02-10 17:14:20] INFO -     #9 product.acttr.com → ✗
+[2026-02-10 17:14:20] INFO -     #10 www.unice-eo.com → ✗
+[2026-02-10 17:14:20] INFO -     #11 www.ncir.niar.org.tw → ✗
+[2026-02-10 17:14:20] INFO -     #12 www.malvernpanalytical.com → ✗
+[2026-02-10 17:14:20] INFO -     #13 www.scincotaiwan.tw → ✓ 匹配
+[2026-02-10 17:14:20] INFO -   找到！排名第 13 名，第 1 頁
+[2026-02-10 17:14:20] INFO -   結果: 13/P.1
+[2026-02-10 17:14:20] INFO -   等待 5 秒...
+[2026-02-10 17:14:25] INFO - [6/17] 搜尋關鍵字：拉曼光譜儀
+[2026-02-10 17:14:32] INFO -   比對目標域名: scincotaiwan.tw (原始: https://www.scincotaiwan.tw/)
+[2026-02-10 17:14:32] INFO -   第 1 頁：找到 13 個結果標題連結
+[2026-02-10 17:14:32] INFO -     #1 www.rightek.com.tw → ✗
+[2026-02-10 17:14:32] INFO -     #2 zh.wikipedia.org → ✗
+[2026-02-10 17:14:32] INFO -     #3 www.scientech.com.tw → ✗
+[2026-02-10 17:14:32] INFO -     #4 tcsb.nuu.edu.tw → ✗
+[2026-02-10 17:14:32] INFO -     #5 www.mt.com → ✗
+[2026-02-10 17:14:32] INFO -     #6 www.eurofins.tw → ✗
+[2026-02-10 17:14:32] INFO -     #7 www.scientech.com.tw → ✗
+[2026-02-10 17:14:32] INFO -     #8 smartcity.org.tw → ✗
+[2026-02-10 17:14:32] INFO -     #9 sppic.ntust.edu.tw → ✗
+[2026-02-10 17:14:32] INFO -     #10 www.mt.com → ✗
+[2026-02-10 17:14:32] INFO -     #11 ord.nycu.edu.tw → ✗
+[2026-02-10 17:14:32] INFO -     #12 www.scincotaiwan.tw → ✓ 匹配
+[2026-02-10 17:14:32] INFO -   找到！排名第 12 名，第 1 頁
+[2026-02-10 17:14:32] INFO -   結果: 12/P.1
+[2026-02-10 17:14:32] INFO -   等待 5 秒...
+[2026-02-10 17:14:37] INFO - [7/17] 搜尋關鍵字：旋光度計
+[2026-02-10 17:14:45] INFO -   比對目標域名: scincotaiwan.tw (原始: https://www.scincotaiwan.tw/)
+[2026-02-10 17:14:45] INFO -   第 1 頁：找到 13 個結果標題連結
+[2026-02-10 17:14:45] INFO -     #1 www.sun-way.com.tw → ✗
+[2026-02-10 17:14:45] INFO -     #2 www.chuanhua.com.tw → ✗
+[2026-02-10 17:14:45] INFO -     #3 www.atago.net → ✗
+[2026-02-10 17:14:45] INFO -     #4 www.scincotaiwan.tw → ✓ 匹配
+[2026-02-10 17:14:45] INFO -   找到！排名第 4 名，第 1 頁
+[2026-02-10 17:14:45] INFO -   結果: 4/P.1
+[2026-02-10 17:14:45] INFO -   等待 5 秒...
+[2026-02-10 17:14:50] INFO - [8/17] 搜尋關鍵字：uv vis
+[2026-02-10 17:14:57] INFO -   比對目標域名: scincotaiwan.tw (原始: https://www.scincotaiwan.tw/)
+[2026-02-10 17:14:57] INFO -   第 1 頁：找到 12 個結果標題連結
+[2026-02-10 17:14:57] INFO -     #1 zh.wikipedia.org → ✗
+[2026-02-10 17:14:57] INFO -     #2 emo.ntut.edu.tw → ✗
+[2026-02-10 17:14:58] INFO -     #3 scitechvista.nat.gov.tw → ✗
+[2026-02-10 17:14:58] INFO -     #4 www.shiyanjia.com → ✗
+[2026-02-10 17:14:58] INFO -     #5 www.mt.com → ✗
+[2026-02-10 17:14:58] INFO -     #6 www.mt.com → ✗
+[2026-02-10 17:14:58] INFO -     #7 www.scincotaiwan.tw → ✓ 匹配
+[2026-02-10 17:14:58] INFO -   找到！排名第 7 名，第 1 頁
+[2026-02-10 17:14:58] INFO -   結果: 7/P.1
+[2026-02-10 17:14:58] INFO -   等待 5 秒...
+[2026-02-10 17:15:03] INFO - [9/17] 搜尋關鍵字：Raman
+[2026-02-10 17:15:10] INFO -   比對目標域名: scincotaiwan.tw (原始: https://www.scincotaiwan.tw/)
+[2026-02-10 17:15:10] INFO -   第 1 頁：找到 13 個結果標題連結
+[2026-02-10 17:15:10] INFO -     #1 www.scientech.com.tw → ✗
+[2026-02-10 17:15:10] INFO -     #2 www.mt.com → ✗
+[2026-02-10 17:15:10] INFO -     #3 zh.wikipedia.org → ✗
+[2026-02-10 17:15:10] INFO -     #4 zh-yue.wikipedia.org → ✗
+[2026-02-10 17:15:10] INFO -     #5 zh.wikipedia.org → ✗
+[2026-02-10 17:15:10] INFO -     #6 www.rightek.com.tw → ✗
+[2026-02-10 17:15:10] INFO -     #7 www.mt.com → ✗
+[2026-02-10 17:15:10] INFO -     #8 rndcic.ntut.edu.tw → ✗
+[2026-02-10 17:15:10] INFO -     #9 www.johas.com.tw → ✗
+[2026-02-10 17:15:10] INFO -     #10 www.eurofins.tw → ✗
+[2026-02-10 17:15:10] INFO -     #11 www.renishaw.com → ✗
+[2026-02-10 17:15:10] INFO -     #12 www.thermofisher.com → ✗
+[2026-02-10 17:15:10] INFO -     #13 sppic.ntust.edu.tw → ✗
+[2026-02-10 17:15:14] INFO -   第 2 頁：找到 9 個結果標題連結
+[2026-02-10 17:15:14] INFO -     #14 www.scincotaiwan.tw → ✓ 匹配
+[2026-02-10 17:15:14] INFO -   找到！排名第 14 名，第 2 頁
+[2026-02-10 17:15:14] INFO -   結果: 14/P.2
+[2026-02-10 17:15:14] INFO -   等待 5 秒...
+[2026-02-10 17:15:19] INFO - [10/17] 搜尋關鍵字：恆溫恆濕箱
+[2026-02-10 17:15:26] INFO -   比對目標域名: scincotaiwan.tw (原始: https://www.scincotaiwan.tw/)
+[2026-02-10 17:15:26] INFO -   第 1 頁：找到 13 個結果標題連結
+[2026-02-10 17:15:26] INFO -     #1 www.boruey.com.tw → ✗
+[2026-02-10 17:15:26] INFO -     #2 shopee.tw → ✗
+[2026-02-10 17:15:26] INFO -     #3 www.scincotaiwan.tw → ✓ 匹配
+[2026-02-10 17:15:26] INFO -   找到！排名第 3 名，第 1 頁
+[2026-02-10 17:15:26] INFO -   結果: 3/P.1
+[2026-02-10 17:15:26] INFO -   等待 5 秒...
+[2026-02-10 17:15:31] INFO - [11/17] 搜尋關鍵字：微流體
+[2026-02-10 17:15:39] INFO -   比對目標域名: scincotaiwan.tw (原始: https://www.scincotaiwan.tw/)
+[2026-02-10 17:15:39] INFO -   第 1 頁：找到 12 個結果標題連結
+[2026-02-10 17:15:39] INFO -     #1 www.bnext.com.tw → ✗
+[2026-02-10 17:15:39] INFO -     #2 money.udn.com → ✗
+[2026-02-10 17:15:39] INFO -     #3 zh.wikipedia.org → ✗
+[2026-02-10 17:15:39] INFO -     #4 www.scincotaiwan.tw → ✓ 匹配
+[2026-02-10 17:15:39] INFO -   找到！排名第 4 名，第 1 頁
+[2026-02-10 17:15:39] INFO -   結果: 4/P.1
+[2026-02-10 17:15:39] INFO -   等待 5 秒...
+[2026-02-10 17:15:44] INFO - [12/17] 搜尋關鍵字：溶離試驗
+[2026-02-10 17:15:51] INFO -   比對目標域名: scincotaiwan.tw (原始: https://www.scincotaiwan.tw/)
+[2026-02-10 17:15:51] INFO -   第 1 頁：找到 11 個結果標題連結
+[2026-02-10 17:15:51] INFO -     #1 blog.kohan.com.tw → ✗
+[2026-02-10 17:15:51] INFO -     #2 www.cde.org.tw → ✗
+[2026-02-10 17:15:51] INFO -     #3 nonohu.com → ✗
+[2026-02-10 17:15:51] INFO -     #4 www.fda.gov.tw → ✗
+[2026-02-10 17:15:51] INFO -     #5 www.scincotaiwan.tw → ✓ 匹配
+[2026-02-10 17:15:51] INFO -   找到！排名第 5 名，第 1 頁
+[2026-02-10 17:15:51] INFO -   結果: 5/P.1
+[2026-02-10 17:15:51] INFO -   等待 5 秒...
+[2026-02-10 17:15:56] INFO - [13/17] 搜尋關鍵字：dissolution USP4
+[2026-02-10 17:16:04] INFO -   比對目標域名: scincotaiwan.tw (原始: https://www.scincotaiwan.tw/)
+[2026-02-10 17:16:04] INFO -   第 1 頁：找到 9 個結果標題連結
+[2026-02-10 17:16:04] INFO -     #1 scincotaiwan.tw → ✓ 匹配
+[2026-02-10 17:16:04] INFO -   找到！排名第 1 名，第 1 頁
+[2026-02-10 17:16:04] INFO -   結果: 1/P.1
+[2026-02-10 17:16:04] INFO -   等待 5 秒...
+[2026-02-10 17:16:09] INFO - [14/17] 搜尋關鍵字：nanodrop
+[2026-02-10 17:16:16] INFO -   比對目標域名: scincotaiwan.tw (原始: https://www.scincotaiwan.tw/)
+[2026-02-10 17:16:16] INFO -   第 1 頁：找到 11 個結果標題連結
+[2026-02-10 17:16:16] INFO -     #1 www.thermofisher.com → ✗
+[2026-02-10 17:16:16] INFO -     #2 www.thermofisher.com → ✗
+[2026-02-10 17:16:16] INFO -     #3 www.vghtc.gov.tw → ✗
+[2026-02-10 17:16:16] INFO -     #4 www.thermofisher.com → ✗
+[2026-02-10 17:16:17] INFO -     #5 www.otsuka-tw.com → ✗
+[2026-02-10 17:16:17] INFO -     #6 pressbooks.pub → ✗
+[2026-02-10 17:16:17] INFO -     #7 www.scincotaiwan.tw → ✓ 匹配
+[2026-02-10 17:16:17] INFO -   找到！排名第 7 名，第 1 頁
+[2026-02-10 17:16:17] INFO -   結果: 7/P.1
+[2026-02-10 17:16:17] INFO -   等待 5 秒...
+[2026-02-10 17:16:22] INFO - [15/17] 搜尋關鍵字：microfluidic
+[2026-02-10 17:16:29] INFO -   比對目標域名: scincotaiwan.tw (原始: https://www.scincotaiwan.tw/)
+[2026-02-10 17:16:29] INFO -   第 1 頁：找到 11 個結果標題連結
+[2026-02-10 17:16:29] INFO -     #1 zh.wikipedia.org → ✗
+[2026-02-10 17:16:29] INFO -     #2 www.scincotaiwan.tw → ✓ 匹配
+[2026-02-10 17:16:29] INFO -   找到！排名第 2 名，第 1 頁
+[2026-02-10 17:16:29] INFO -   結果: 2/P.1
+[2026-02-10 17:16:29] INFO -   等待 5 秒...
+[2026-02-10 17:16:34] INFO - [16/17] 搜尋關鍵字：熱分析
+[2026-02-10 17:16:42] INFO -   比對目標域名: scincotaiwan.tw (原始: https://www.scincotaiwan.tw/)
+[2026-02-10 17:16:42] INFO -   第 1 頁：找到 13 個結果標題連結
+[2026-02-10 17:16:42] INFO -     #1 blog.kohan.com.tw → ✗
+[2026-02-10 17:16:42] INFO -     #2 www.techmaxasia.com → ✗
+[2026-02-10 17:16:42] INFO -     #3 nscric.site.nthu.edu.tw → ✗
+[2026-02-10 17:16:42] INFO -     #4 www.tainstruments.com → ✗
+[2026-02-10 17:16:42] INFO -     #5 mse.nuu.edu.tw → ✗
+[2026-02-10 17:16:42] INFO -     #6 nscric.site.nthu.edu.tw → ✗
+[2026-02-10 17:16:42] INFO -     #7 www.tainstruments.com → ✗
+[2026-02-10 17:16:42] INFO -     #8 www.scincotaiwan.tw → ✓ 匹配
+[2026-02-10 17:16:42] INFO -   找到！排名第 8 名，第 1 頁
+[2026-02-10 17:16:42] INFO -   結果: 8/P.1
+[2026-02-10 17:16:42] INFO -   等待 5 秒...
+[2026-02-10 17:16:47] INFO - [17/17] 搜尋關鍵字：FTIR ATR
+[2026-02-10 17:16:54] INFO -   比對目標域名: scincotaiwan.tw (原始: https://www.scincotaiwan.tw/)
+[2026-02-10 17:16:54] INFO -   第 1 頁：找到 13 個結果標題連結
+[2026-02-10 17:16:54] INFO -     #1 www.scincotaiwan.tw → ✓ 匹配
+[2026-02-10 17:16:54] INFO -   找到！排名第 1 名，第 1 頁
+[2026-02-10 17:16:54] INFO -   結果: 1/P.1
+[2026-02-10 17:16:54] INFO - ============================================================
+[2026-02-10 17:16:54] INFO - 所有關鍵字搜尋完成！共處理 17 個關鍵字
+[2026-02-10 17:16:54] INFO - 結果已儲存至 data/output/seo_search_results.xlsx
+[2026-02-10 17:16:54] INFO - ============================================================

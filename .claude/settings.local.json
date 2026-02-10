@@ -12,7 +12,11 @@
       "Bash(unzip:*)",
       "Bash(pip3 install:*)",
       "Bash(./venv/bin/python3:*)",
-      "Bash(/Users/york/Desktop/APP/seo_auto_check/venv/bin/python3:*)"
+      "Bash(/Users/york/Desktop/APP/seo_auto_check/venv/bin/python3:*)",
+      "Bash(git -C /Users/york/Desktop/APP/seo_auto_check log --oneline -5)",
+      "Bash(git -C /Users/york/Desktop/APP/seo_auto_check log --oneline origin/main -5)",
+      "Bash(git -C /Users/york/Desktop/APP/seo_auto_check log --oneline dev -5)",
+      "Bash(git -C /Users/york/Desktop/APP/seo_auto_check reflog -10)"
     ],
     "deny": [],
     "ask": []
